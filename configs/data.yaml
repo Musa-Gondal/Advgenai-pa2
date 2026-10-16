@@ -1,0 +1,12 @@
+# Subset construction (pa2/data.py). Seeded shuffle of each source split, then
+# keep single-turn rows whose formatted prompt <= max_prompt_length tokens and
+# whose prompt + response + EOS <= max_length tokens (so EOS is never truncated).
+tokenizer: Qwen/Qwen2.5-0.5B
+seed: 42
+max_length: 512
+max_prompt_length: 256
+sft_train: 30000
+sft_val: 1000
+dpo_train: 15000
+dpo_val: 1000
+output_dir: /outputs/data

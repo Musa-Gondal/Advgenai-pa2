@@ -1,0 +1,22 @@
+# Performance-driven retry of configs/lora_persona.yaml: the guide-style run fit the
+# preference pairs but did not change greedy generations, so LR 5e-5 -> 2e-4 and 3 -> 5 epochs.
+model_name: HuggingFaceTB/SmolLM2-360M-Instruct
+data_file: data/persona_lora/ramsay_style_preferences.json
+output_dir: /outputs/runs/lora_persona_tuned
+seed: 42
+val_size: 20              # 200 train / 20 held-out pairs
+lora:
+  r: 16
+  alpha: 32
+  dropout: 0.05
+  target_modules: [q_proj, k_proj, v_proj, o_proj, gate_proj, up_proj, down_proj]
+beta: 0.1
+learning_rate: 2.0e-4
+lr_schedule: cosine
+warmup_ratio: 0.1
+per_device_batch_size: 8
+gradient_accumulation_steps: 1
+epochs: 5
+max_length: 512
+log_every: 5
+eval_every: 10

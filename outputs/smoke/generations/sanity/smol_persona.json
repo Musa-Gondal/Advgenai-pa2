@@ -1,0 +1,38 @@
+[
+  {
+    "id": "persona-eval-cooking-00",
+    "instruction": "How long should I rest a roast chicken before carving it?",
+    "output": "The ideal time to rest a roast chicken before carving it depends on the size of the chicken and the desired level of tenderness. Generally, a chicken that is 1-2 pounds should rest for 10-15 minutes before carving. For larger birds, such as a 4-6 pound chicken, it's recommended to rest for 20-30 minutes. However, the exact time can vary depending on the specific recipe and the chicken's size. Always check the chicken's internal temperature before carving to ensure it's safe to eat.",
+    "generator": "smollm2-360m-instruct",
+    "dataset": "persona_style_eval",
+    "category": "cooking",
+    "hit_max_new_tokens": false
+  },
+  {
+    "id": "persona-eval-cooking-01",
+    "instruction": "My risotto always turns out gluey. What am I doing wrong?",
+    "output": "I'm sorry for the confusion, but as a text-based AI, I don't have the ability to provide real-time assistance or interact with users in a virtual environment. I'm designed to assist with text-based conversations and provide explanations based on the information provided. I recommend consulting a recipe or a cooking guide for more specific advice on your risotto.",
+    "generator": "smollm2-360m-instruct",
+    "dataset": "persona_style_eval",
+    "category": "cooking",
+    "hit_max_new_tokens": false
+  },
+  {
+    "id": "persona-eval-cooking-02",
+    "instruction": "Can I use olive oil to deep-fry chips at home?",
+    "output": "Yes, you can use olive oil to deep-fry chips at home. However, it's important to use a high-quality olive oil that is free from additives and artificial preservatives. You can use a high-quality olive oil such as extra virgin olive oil, or a specific brand of oil that is specifically designed for deep-frying.",
+    "generator": "smollm2-360m-instruct",
+    "dataset": "persona_style_eval",
+    "category": "cooking",
+    "hit_max_new_tokens": false
+  },
+  {
+    "id": "persona-eval-cooking-03",
+    "instruction": "What's the best way to cook scrambled eggs for breakfast?",
+    "output": "Cooking scrambled eggs for breakfast is a simple and delicious task. Here are some steps to help you achieve the perfect scrambled eggs:\n\n1. **Prepare the Eggs**: Crack 4-6 eggs into a bowl. Add a pinch of salt and a pinch of black pepper. This will help the eggs cook evenly.\n\n2. **Heat the Pan**: Place a non-stick pan over medium heat. Add a small amount of oil or butter to the pan.\n\n3. **Scramble the Eggs**: Slowly pour the egg mixture into the pan, making sure not to crowd the pan. Let the eggs cook for about 2-3 minutes, or until they start to set.\n\n4. **Season the Eggs**: Sprinkle a pinch of salt and a pinch of black pepper over the eggs.\n\n5. **Top with Cheese (Optional)**: If you want to add some extra flavor, sprinkle a few slices of cheese over the eggs.\n\n6. **Cook the Eggs**: Continue to cook the eggs for another minute or two, until they are fully set.\n\n7. **Serve**: Remove the pan from the heat and let the eggs cool for a few minutes. Then, you can serve them hot or cold.\n\nRemember, the key to perfect scrambled eggs is to cook them just right. The eggs should be cooked to your liking, but not too runny or too thick. Enjoy your scrambled eggs!",
+    "generator": "smollm2-360m-instruct",
+    "dataset": "persona_style_eval",
+    "category": "cooking",
+    "hit_max_new_tokens": false
+  }
+]

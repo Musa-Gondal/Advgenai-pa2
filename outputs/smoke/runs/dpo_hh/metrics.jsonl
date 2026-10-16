@@ -1,0 +1,7 @@
+{"event": "start", "train_pairs": 64, "val_pairs": 16, "total_steps": 2, "effective_batch_size": 32, "beta": 0.1, "sft_checkpoint": "/outputs/smoke/sft/best", "elapsed_s": 9.8}
+{"event": "eval", "step": 0, "val_loss": 0.6931471824645996, "val_reward_accuracy": 0.0, "val_reward_margin": 0.0, "val_chosen_reward": 0.0, "val_rejected_reward": 0.0, "elapsed_s": 12.6}
+{"event": "train", "step": 1, "epoch": 0, "train_loss": 0.6931471824645996, "train_reward_accuracy": 0.0, "train_reward_margin": 0.0, "grad_norm": NaN, "lr": 1e-06, "tokens_per_s": 1483, "s_per_step": 5.324, "eta_min": 0.1, "elapsed_s": 17.9}
+{"event": "eval", "step": 1, "best": true, "val_loss": 0.6931471824645996, "val_reward_accuracy": 0.0, "val_reward_margin": 0.0, "val_chosen_reward": 0.0, "val_rejected_reward": 0.0, "elapsed_s": 18.0}
+{"event": "train", "step": 2, "epoch": 0, "train_loss": 0.6931471824645996, "train_reward_accuracy": 0.0, "train_reward_margin": 0.0, "grad_norm": 45.85390090942383, "lr": 1e-06, "tokens_per_s": 706, "s_per_step": 8.685, "eta_min": 0.0, "elapsed_s": 26.6}
+{"event": "eval", "step": 2, "best": true, "val_loss": 0.6898093819618225, "val_reward_accuracy": 0.625, "val_reward_margin": 0.007384051568806171, "val_chosen_reward": 0.026653386652469635, "val_rejected_reward": 0.019269336014986038, "elapsed_s": 26.7}
+{"event": "done", "step": 2, "best_val_reward_accuracy": 0.625, "elapsed_s": 61.5}

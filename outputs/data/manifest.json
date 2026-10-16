@@ -1,0 +1,49 @@
+{
+  "seed": 42,
+  "max_length": 512,
+  "max_prompt_length": 256,
+  "subsets": {
+    "sft_train": {
+      "source": "HuggingFaceH4/ultrachat_200k:train_sft",
+      "source_rows": 207865,
+      "rows_scanned": 57582,
+      "rows_target": 30000,
+      "rows_kept": 30000
+    },
+    "sft_val": {
+      "source": "HuggingFaceH4/ultrachat_200k:test_sft",
+      "source_rows": 23110,
+      "rows_scanned": 1984,
+      "rows_target": 1000,
+      "rows_kept": 1000
+    },
+    "hh_train": {
+      "source": "Anthropic/hh-rlhf:train",
+      "source_rows": 160800,
+      "rows_scanned": 49203,
+      "rows_target": 15000,
+      "rows_kept": 15000
+    },
+    "hh_val": {
+      "source": "Anthropic/hh-rlhf:test",
+      "source_rows": 8552,
+      "rows_scanned": 3252,
+      "rows_target": 1000,
+      "rows_kept": 1000
+    },
+    "uf_train": {
+      "source": "HuggingFaceH4/ultrafeedback_binarized:train_prefs",
+      "source_rows": 61135,
+      "rows_scanned": 31149,
+      "rows_target": 15000,
+      "rows_kept": 15000
+    },
+    "uf_val": {
+      "source": "HuggingFaceH4/ultrafeedback_binarized:test_prefs",
+      "source_rows": 2000,
+      "rows_scanned": 2000,
+      "rows_target": 1000,
+      "rows_kept": 969
+    }
+  }
+}

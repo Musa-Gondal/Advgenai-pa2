@@ -1,0 +1,62 @@
+{
+  "candidate": "smollm2-360m-lora-dpo-tuned",
+  "baseline": "smollm2-360m-instruct",
+  "overall": {
+    "win": 2,
+    "loss": 38,
+    "tie": 0,
+    "unknown": 0,
+    "failed": 0,
+    "n": 40,
+    "win_rate_excl_ties": 0.05,
+    "win_rate_ties_half": 0.05
+  },
+  "per_category": {
+    "coding": {
+      "win": 0,
+      "loss": 10,
+      "tie": 0,
+      "unknown": 0,
+      "failed": 0,
+      "n": 10,
+      "win_rate_excl_ties": 0.0,
+      "win_rate_ties_half": 0.0
+    },
+    "cooking": {
+      "win": 0,
+      "loss": 10,
+      "tie": 0,
+      "unknown": 0,
+      "failed": 0,
+      "n": 10,
+      "win_rate_excl_ties": 0.0,
+      "win_rate_ties_half": 0.0
+    },
+    "general_help": {
+      "win": 0,
+      "loss": 10,
+      "tie": 0,
+      "unknown": 0,
+      "failed": 0,
+      "n": 10,
+      "win_rate_excl_ties": 0.0,
+      "win_rate_ties_half": 0.0
+    },
+    "safety_sensitive": {
+      "win": 2,
+      "loss": 8,
+      "tie": 0,
+      "unknown": 0,
+      "failed": 0,
+      "n": 10,
+      "win_rate_excl_ties": 0.2,
+      "win_rate_ties_half": 0.2
+    }
+  },
+  "position_counts": {
+    "A": 21,
+    "B": 19
+  },
+  "unresolved_failures": 0,
+  "judge_model": "google/gemini-3.6-flash"
+}

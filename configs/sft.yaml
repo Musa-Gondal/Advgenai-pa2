@@ -1,0 +1,19 @@
+model_name: Qwen/Qwen2.5-0.5B
+train_file: /outputs/data/sft_train.jsonl
+val_file: /outputs/data/sft_val.jsonl
+output_dir: /outputs/runs/sft
+seed: 42
+max_length: 512
+per_device_batch_size: 16       # guide: 2 x 16; changed for H100 throughput (resource-driven)
+gradient_accumulation_steps: 2   # effective batch 32 (unchanged)
+eval_batch_size: 32
+learning_rate: 2.0e-5
+lr_schedule: cosine
+warmup_ratio: 0.03
+weight_decay: 0.1
+max_grad_norm: 1.0
+epochs: 1
+precision: fp16          # fp16 autocast + GradScaler, fp32 master weights
+gradient_checkpointing: false
+log_every: 5
+eval_every: 100

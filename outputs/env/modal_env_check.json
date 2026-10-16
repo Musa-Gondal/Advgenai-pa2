@@ -1,0 +1,14 @@
+{
+  "torch": "2.14.1+cu130",
+  "transformers": "4.57.6",
+  "cuda_available": true,
+  "gpus": [
+    "NVIDIA H100 80GB HBM3"
+  ],
+  "datasets": "4.8.5",
+  "trl": "1.15.0",
+  "peft": "0.21.2",
+  "hostname": "modal",
+  "nvidia_smi_gpu0": "NVIDIA H100 80GB HBM3",
+  "note": "modal run modal_app.py::env_check on the training GPU (Task 1 equivalent on Modal)"
+}

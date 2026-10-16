@@ -1,0 +1,8 @@
+# Shared decoding settings: identical for every model in a comparison.
+prompt_format: pa2_chatml   # chat_template for SmolLM2-Instruct (its native template)
+do_sample: false            # greedy
+max_new_tokens: 512
+repetition_penalty: 1.0
+no_repeat_ngram_size: 0
+batch_size: 64
+seed: 42

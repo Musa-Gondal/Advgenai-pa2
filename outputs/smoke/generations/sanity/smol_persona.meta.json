@@ -1,0 +1,11 @@
+{
+  "generator": "smollm2-360m-instruct",
+  "model_path": "HuggingFaceTB/SmolLM2-360M-Instruct",
+  "adapter_path": null,
+  "eval_file": "/root/eval_sets/persona_style_eval_40.json",
+  "decoding": {
+    "max_new_tokens": 512,
+    "do_sample": false
+  },
+  "prompt_format": "chat_template"
+}

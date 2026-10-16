@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "genai-pa2"
+version = "0.1.0"
+description = "SFT and from-scratch DPO on Qwen2.5-0.5B, plus TRL LoRA-DPO persona tuning."
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.setuptools]
+packages = ["pa2"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

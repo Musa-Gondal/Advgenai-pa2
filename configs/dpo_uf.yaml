@@ -1,0 +1,22 @@
+sft_checkpoint: /outputs/runs/sft/best
+train_file: /outputs/data/uf_train.jsonl
+val_file: /outputs/data/uf_val.jsonl
+output_dir: /outputs/runs/dpo_uf
+seed: 42
+max_length: 512
+per_device_batch_size: 8        # guide: 1 x 32; changed for H100 throughput (resource-driven)
+gradient_accumulation_steps: 4   # effective batch 32 (unchanged)
+eval_batch_size: 16
+beta: 0.1
+optimizer: adamw
+learning_rate: 1.0e-6
+lr_schedule: constant
+warmup_steps: 0
+weight_decay: 0.0
+max_grad_norm: 1.0
+epochs: 1
+precision: fp16           # policy: fp32 weights + fp16 autocast + GradScaler
+reference_dtype: fp32     # frozen reference; fits on one 24 GB GPU, keeps step-0 rewards tied
+gradient_checkpointing: false
+log_every: 5
+eval_every: 50

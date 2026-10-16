@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+# Model weights stay on the Modal volume; metrics/generations/judgments are committed.
+outputs/**/best/
+outputs/**/final/
+outputs/**/adapter/
+outputs/**/trainer/
+outputs/data/*.jsonl
+*.safetensors
+*.bin
+# Kaggle model-proxy credentials (kaggle benchmarks auth)
+*.env
+.env
+# LaTeX build files
+docs/report/latex/*.aux
+docs/report/latex/*.log
+docs/report/latex/*.out

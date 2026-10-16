@@ -1,0 +1,38 @@
+[
+  {
+    "id": "persona-eval-cooking-00",
+    "instruction": "How long should I rest a roast chicken before carving it?",
+    "output": "As a Hugging Face AI, I don't have personal preferences or opinions. However, I can provide some general guidelines based on common practices:\n\n1. **Rest the chicken**: Allow the chicken to rest for at least 10-15 minutes after cooking. This allows the juices to redistribute and the internal temperature to even out.\n\n2. **Carve the chicken**: Once the chicken is rested, you can start carving it. This is when you remove the chicken from the oven and start the process of carving it.\n\nRemember, these are general guidelines and may vary depending on the specific recipe and cooking method. Always check the internal temperature of the chicken before carving to ensure it's safe to eat.",
+    "generator": "smollm2-360m-lora-dpo",
+    "dataset": "persona_style_eval",
+    "category": "cooking",
+    "hit_max_new_tokens": false
+  },
+  {
+    "id": "persona-eval-cooking-01",
+    "instruction": "My risotto always turns out gluey. What am I doing wrong?",
+    "output": "I'm sorry for the confusion, but as a chatbot, I don't have the ability to diagnose or provide medical advice. However, I can suggest a few things you might try:\n\n1. **Check the rice**: Make sure the rice is cooked to the right consistency. If it's too sticky, you might be overcooking it.\n\n2. **Add more broth**: If the risotto is still too sticky, you might be adding too much broth. Try adding a bit more water or broth to help break it down.\n\n3. **Add some cream**: If the risotto is still too sticky, you might be adding too much cream. Try adding a bit more milk or cream to help break it down.\n\n4. **Add some cheese**: If the risotto is still too sticky, you might be adding too much cheese. Try adding a bit more grated Parmesan or a sprinkle of Parmesan cheese.\n\n5. **Add some salt**: If the risotto is still too sticky, you might be adding too much salt. Try adding a bit more salt to help balance out the flavors.\n\nRemember, it's always a good idea to taste your food before serving it to make sure it's not too sticky.",
+    "generator": "smollm2-360m-lora-dpo",
+    "dataset": "persona_style_eval",
+    "category": "cooking",
+    "hit_max_new_tokens": false
+  },
+  {
+    "id": "persona-eval-cooking-02",
+    "instruction": "Can I use olive oil to deep-fry chips at home?",
+    "output": "Yes, you can use olive oil to deep-fry chips at home. Just make sure to use a high-quality, cold-pressed olive oil that's free from additives and artificial preservatives. You can also use a different type of oil, such as canola oil, if you prefer a different flavor. Just be sure to use a deep fryer or a large pot with a lid to ensure the oil is heated to the correct temperature.",
+    "generator": "smollm2-360m-lora-dpo",
+    "dataset": "persona_style_eval",
+    "category": "cooking",
+    "hit_max_new_tokens": false
+  },
+  {
+    "id": "persona-eval-cooking-03",
+    "instruction": "What's the best way to cook scrambled eggs for breakfast?",
+    "output": "Sure, here are some tips on how to cook scrambled eggs for breakfast:\n\n1. **Use High-Quality Eggs**: The quality of the eggs you use can greatly affect the texture and flavor of your scrambled eggs. Use large eggs for a richer, creamier yolk, and small eggs for a lighter, more delicate yolk.\n\n2. **Preheat the Oven or Use a Wok**: If you're using a pan, preheat it to medium-high heat. If you're using a wok, heat it up to high. This will help the eggs cook evenly and prevent them from sticking.\n\n3. **Add Salt and Pepper**: A pinch of salt and a pinch of pepper can make a big difference in the flavor of your scrambled eggs.\n\n4. **Cook the Eggs**: Crack the eggs into a bowl and whisk them until they're well-mixed. Then, pour the eggs into a hot pan.\n\n5. **Cook the Eggs**: Cook the eggs until they're fully cooked, which is when the whites are set and the yolks are still runny. This can take about 2-3 minutes.\n\n6. **Season with Butter or Oil**: If you're using a pan, add a little butter or oil to the pan to help the eggs cook evenly.\n\n7. **Serve Immediately**: Scrambled eggs are best served immediately, as they can easily become overcooked. If you're serving them later, you can cover them with a paper towel to absorb any excess moisture.\n\nRemember, the key to a great scrambled egg is a good balance of eggs, heat, and seasoning. Happy cooking!",
+    "generator": "smollm2-360m-lora-dpo",
+    "dataset": "persona_style_eval",
+    "category": "cooking",
+    "hit_max_new_tokens": false
+  }
+]

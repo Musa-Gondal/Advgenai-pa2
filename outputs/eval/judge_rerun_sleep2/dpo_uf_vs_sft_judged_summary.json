@@ -1,0 +1,32 @@
+{
+  "candidate": "qwen2.5-0.5b-dpo-uf",
+  "baseline": "qwen2.5-0.5b-sft",
+  "overall": {
+    "win": 132,
+    "loss": 111,
+    "tie": 57,
+    "unknown": 0,
+    "failed": 0,
+    "n": 300,
+    "win_rate_excl_ties": 0.5432098765432098,
+    "win_rate_ties_half": 0.535
+  },
+  "per_category": {
+    "all": {
+      "win": 132,
+      "loss": 111,
+      "tie": 57,
+      "unknown": 0,
+      "failed": 0,
+      "n": 300,
+      "win_rate_excl_ties": 0.5432098765432098,
+      "win_rate_ties_half": 0.535
+    }
+  },
+  "position_counts": {
+    "B": 108,
+    "A": 135
+  },
+  "unresolved_failures": 0,
+  "judge_model": "google/gemini-3.6-flash"
+}

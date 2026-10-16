@@ -1,0 +1,11 @@
+{
+  "generator": "qwen2.5-0.5b-dpo-hh",
+  "model_path": "/outputs/smoke/dpo_hh/best",
+  "adapter_path": null,
+  "eval_file": "/root/eval_sets/hh_rlhf_eval_300_seed42.json",
+  "decoding": {
+    "max_new_tokens": 512,
+    "do_sample": false
+  },
+  "prompt_format": "pa2_chatml"
+}
